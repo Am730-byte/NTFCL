@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/Images/bg.jpg");
+    background-position: center center;
+
+    background-size: max(1000px, 100vw);
+    background-repeat: no-repeat;
+     
+    height: 664px;
+    position: relative;
+
+
+}
+
+.main .box {
+
+    height: 664px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 100px;
+
+
+}
+
+.sign {
+    transition: all 1s ease-out;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    height: 35px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign:hover {
+    background-color:rgb(192, 16, 16);
+}
+
+.lang {
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+
+    font-size: larger;
+    height: 40px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav img {
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    width: 175fpx;
+    position: relative;
+    z-index: 10;
+}
+
+.boxtext {
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+
+}
+
+.boxtext> :first-child {
+    font-weight: 1000;
+    font-size: 60px;
+    text-align: center;
+}
+
+.boxtext> :nth-child(2) {
+    font-weight: 1000;
+    font-size: 60px;
+    text-align: center;
+}
+
+.boxtext :nth-child(3) {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxtext :nth-child(4) {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sepration {
+    height: 8px;
+    background-color: gray;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+.boxtext .email {
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    height: 49px;
+    width: 370px;
+    border: 2px solid rgb(97, 97, 96);
+    border-radius: 4px;
+    font-size: large;
+    padding-left: 20px;
+    -webkit-text-fill-color: aliceblue;
+}
+
+.boxtext .getstart {
+    transition: all 1s ease-out;
+    padding: 10px 15px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.boxtext .getstart:hover{
+    background-color:rgb(192, 16, 16);
+}
+
+.main input {
+
+    color: aliceblue;
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    color: aliceblue;
+    margin: auto;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 30vw;
+
+}
+
+.secImg video {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    z-index: -10;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.first>div :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first>div :nth-child(2) {
+    font-size: 20px;
+
+}
+
+.fyq>:first-child {
+    padding-top: 20px;
+    padding-left: 350px;
+    color: aliceblue;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+.fyqbox {
+    transition: all 1s ease-out;
+    padding: 25px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    max-width: 60vw;
+    margin: 10px auto;
+    font-size: 28px;
+    color: white;
+    cursor:pointer;
+}
+
+.fyqbox:hover {
+
+    background-color: rgba(124, 124, 124, 0.507);
+    color: white;
+}
+
+.fyqbox1 {
+    transition: all 1s ease-out;
+    padding: 25px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    max-width: 60vw;
+    margin: 10px auto;
+    font-size: 28px;
+    color: white;
+    cursor:pointer;
+
+}
+
+.fyqbox1:hover {
+    background-color: rgba(124, 124, 124, 0.507);
+    color: white;
+}
+.fyqbox2{
+    margin-top: 68px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.hero-buttons .email{
+    margin-top: 20px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    height: 52px;
+    width: 370px;
+    border: 2px solid rgb(94, 94, 94);
+    border-radius: 4px;
+    font-size: large;
+    padding-left: 20px;
+    -webkit-text-fill-color: rgb(184, 184, 184);
+    
+}
+.hero-buttons .getstart{
+    margin-top: 20px;
+    transition: all 1s ease-out;
+    padding: 10px 15px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: x-large;
+    cursor: pointer;
+}
+.hero-buttons .getstart:hover{
+    background-color:rgb(192, 16, 16);
+}
+
+.question{
+    text-align: left;
+    padding: 100px 350px;
+    color: rgb(179, 179, 179);
+    font-size: 16px;
+}
+.lastbox 
+    {
+        
+        box-sizing: border-box;
+        width: relative;
+        display: grid;
+        height: auto;
+        word-spacing: 260px; 
+        row-gap: 500px;
+        justify-content: left;
+        margin-left: 335px;
+        row-gap: 35px;
+        padding:1px 15px ;
+        text-decoration: none;
+        
+    }
+
